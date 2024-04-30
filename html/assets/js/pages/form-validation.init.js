@@ -13,7 +13,7 @@ document.getElementById('signUp').addEventListener('submit', function (event) {
     const lastName = document.getElementById('lastNameInput').value.trim();
     const email = document.getElementById('emailInput').value.trim();
     const phoneNumber = document.getElementById('phoneNumberInput').value.trim();
-    const termsCheckbox = document.getElementById('termsCondition');
+    const termsCheckbox = document.getElementById('hs-default-checkbox');
 
     const firstNameError = document.getElementById('firstNameError');
     const lastNameError = document.getElementById('lastNameError');
