@@ -21340,7 +21340,7 @@ html:root {
     --ck-color-widget-type-around-button-active: #3b82f6;
     --ck-color-base-active: #3b82f6;
     --ck-color-button-on-background: #dbeafe;
-    --ck-color-button-on-hover-background: #eff6ff;
+    --ck-color-button-on-hover-background: #846cf9;
     --ck-color-base-action: #249782;
     --ck-focus-outer-shadow: none;
     --ck-inner-shadow: none
@@ -24396,7 +24396,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 }
 
 .w-vertical-menu {
-    width: 16.25rem
+    width: 14.50rem
 }
 
 .min-w-\[1\.75rem\] {
@@ -30331,7 +30331,7 @@ td.gridjs-td:last-child {
 
 .hover\:bg-vertical-menu-item-bg-hover:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(239 246 255 / var(--tw-bg-opacity))
+    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-white:hover {
@@ -30561,7 +30561,7 @@ td.gridjs-td:last-child {
 .hover\:text-vertical-menu-item-hover:hover,
 .hover\:text-vertical-menu-sub-item-hover:hover {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 .hover\:text-white:hover {
@@ -31628,7 +31628,7 @@ td.gridjs-td:last-child {
 }
 
 .group\/item:hover .group-hover\/item\:fill-custom-50 {
-    fill: #eff6ff
+    fill: #846cf9
 }
 
 .group\/item:hover .group-hover\/item\:fill-red-200 {
@@ -37286,7 +37286,7 @@ td.gridjs-td:last-child {
 
 @media (min-width: 768px) {
     .ltr\:md\:left-vertical-menu:where([dir=ltr], [dir=ltr] *) {
-        left: 16.25rem
+        left: 14.50rem
     }
 
     .ltr\:md\:text-end:where([dir=ltr], [dir=ltr] *) {
@@ -37314,7 +37314,7 @@ td.gridjs-td:last-child {
     }
 
     .group[data-sidebar-size=lg] .group-data-\[sidebar-size\=lg\]\:ltr\:md\:ml-vertical-menu:where([dir=ltr], [dir=ltr] *) {
-        margin-left: 16.25rem
+        margin-left: 14.50rem
     }
 
     .group[data-layout=horizontal] .group-data-\[layout\=horizontal\]\:ltr\:md\:pl-0:where([dir=ltr], [dir=ltr] *) {
@@ -37870,7 +37870,7 @@ td.gridjs-td:last-child {
 
 @media (min-width: 768px) {
     .rtl\:md\:right-vertical-menu:where([dir=rtl], [dir=rtl] *) {
-        right: 16.25rem
+        right: 14.50rem
     }
 
     .rtl\:md\:text-start:where([dir=rtl], [dir=rtl] *) {
@@ -37898,7 +37898,7 @@ td.gridjs-td:last-child {
     }
 
     .group[data-sidebar-size=lg] .group-data-\[sidebar-size\=lg\]\:rtl\:md\:mr-vertical-menu:where([dir=rtl], [dir=rtl] *) {
-        margin-right: 16.25rem
+        margin-right: 14.50rem
     }
 
     .group[data-layout=horizontal] .group-data-\[layout\=horizontal\]\:rtl\:md\:pr-0:where([dir=rtl], [dir=rtl] *) {
