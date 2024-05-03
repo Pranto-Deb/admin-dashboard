@@ -26258,7 +26258,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .bg-custom-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
 }
 
 .bg-custom-500\/10 {
@@ -26267,7 +26267,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .bg-custom-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
+    background-color: rgb(119 93 247 / var(--tw-bg-opacity))
 }
 
 .bg-custom-800 {
@@ -30156,7 +30156,7 @@ td.gridjs-td:last-child {
 
 .hover\:bg-custom-600:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
+    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-custom-700:hover {
@@ -30558,10 +30558,14 @@ td.gridjs-td:last-child {
     color: rgb(30 41 59 / var(--tw-text-opacity))
 }
 
-.hover\:text-vertical-menu-item-hover:hover,
-.hover\:text-vertical-menu-sub-item-hover:hover {
+.hover\:text-vertical-menu-item-hover:hover {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.hover\:text-vertical-menu-sub-item-hover:hover {
+    --tw-text-opacity: 1;
+    color: rgb(132 108 249 / var(--tw-text-opacity))
 }
 
 .hover\:text-white:hover {
