@@ -8,8 +8,7 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Layout config Js -->
-    <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/css/tailwind2.css">
+    <link rel="stylesheet" href="assets/css/tailwind2.css">
 </head>
 
 <body class="text-base bg-body-bg text-body font-public dark:text-zink-100 dark:bg-zink-800 group-data-[skin=bordered]:bg-body-bordered group-data-[skin=bordered]:dark:bg-zink-700">
@@ -148,7 +147,6 @@
                     </div>
     
                     <div class="flex gap-3 ms-auto">
-                        
                         <div class="relative flex items-center h-header">
                             <button type="button" class="inline-flex relative justify-center items-center p-0 text-topbar-item transition-all w-[37.5px] h-[37.5px] duration-200 ease-linear bg-topbar rounded-md btn hover:bg-topbar-item-bg-hover hover:text-topbar-item-hover group-data-[topbar=dark]:bg-topbar-dark group-data-[topbar=dark]:hover:bg-topbar-item-bg-hover-dark group-data-[topbar=dark]:hover:text-topbar-item-hover-dark group-data-[topbar=brand]:bg-topbar-brand group-data-[topbar=brand]:hover:bg-topbar-item-bg-hover-brand group-data-[topbar=brand]:hover:text-topbar-item-hover-brand group-data-[topbar=dark]:dark:bg-zink-700 group-data-[topbar=dark]:dark:hover:bg-zink-600 group-data-[topbar=brand]:text-topbar-item-brand group-data-[topbar=dark]:dark:hover:text-zink-50 group-data-[topbar=dark]:dark:text-zink-200 group-data-[topbar=dark]:text-topbar-item-dark" id="light-dark-mode">
                                 <i data-lucide="sun" class="inline-block w-5 h-5 stroke-1 fill-slate-100 group-data-[topbar=dark]:fill-topbar-item-bg-hover-dark group-data-[topbar=brand]:fill-topbar-item-bg-hover-brand"></i>
@@ -210,6 +208,19 @@
     <div class="relative min-h-screen group-data-[sidebar-size=sm]:min-h-sm">
         <div class="group-data-[sidebar-size=lg]:ltr:md:ml-vertical-menu group-data-[sidebar-size=lg]:rtl:md:mr-vertical-menu group-data-[sidebar-size=md]:ltr:ml-vertical-menu-md group-data-[sidebar-size=md]:rtl:mr-vertical-menu-md group-data-[sidebar-size=sm]:ltr:ml-vertical-menu-sm group-data-[sidebar-size=sm]:rtl:mr-vertical-menu-sm pt-[calc(theme('spacing.header')_*_1)] pb-[calc(theme('spacing.header')_*_0.8)] px-4 group-data-[navbar=bordered]:pt-[calc(theme('spacing.header')_*_1.3)] group-data-[navbar=hidden]:pt-0 group-data-[layout=horizontal]:mx-auto group-data-[layout=horizontal]:max-w-screen-2xl group-data-[layout=horizontal]:px-0 group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:ltr:md:ml-auto group-data-[layout=horizontal]:group-data-[sidebar-size=lg]:rtl:md:mr-auto group-data-[layout=horizontal]:md:pt-[calc(theme('spacing.header')_*_1.6)] group-data-[layout=horizontal]:px-3 group-data-[layout=horizontal]:group-data-[navbar=hidden]:pt-[calc(theme('spacing.header')_*_0.9)]">        
             <div class="container-fluid group-data-[content=boxed]:max-w-boxed mx-auto">
+                <div class="mt-5 px-2">
+                    <ul class="flex flex-wrap items-center gap-2 text-sm font-normal">
+                        <li class="relative before:content-['\ea6d'] before:font-remix before:ltr:-right-1 before:rtl:-left-1 before:absolute before:text-[18px] before:-top-[3px] ltr:pr-4 rtl:pl-4 before:rtl:rotate-180 before:text-slate-500 dark:before:text-zink-200">
+                            <a href="#!" class="text-slate-500 dark:text-zink-200 transition-all duration-75 ease-linear text-vertical-menu-sub-item hover:text-vertical-menu-sub-item-hover">Home</a>
+                        </li>
+                        <li class="relative before:content-['\ea6d'] before:font-remix before:ltr:-right-1 before:rtl:-left-1 before:absolute before:text-[18px] before:-top-[3px] ltr:pr-4 rtl:pl-4 before:rtl:rotate-180 before:text-slate-500 dark:before:text-zink-200">
+                            <a href="#!" class="text-slate-500 dark:text-zink-200 transition-all duration-75 ease-linear text-vertical-menu-sub-item hover:text-vertical-menu-sub-item-hover">Settings</a>
+                        </li>
+                        <li class="text-slate-700 dark:text-zink-100">
+                            Personal Information
+                        </li>
+                    </ul>
+                </div>
 
                 <div class="card mt-5">
                     <div class="card-body">
@@ -345,10 +356,9 @@
                               
                             <div class="flex justify-end gap-2 mt-5">
                                 <button type="cancel" class="text-white bg-red-500 btn hover:text-white hover:bg-red-600 focus:text-white focus:bg-red-600 active:text-white active:bg-red-600 dark:bg-zink-700 dark:hover:bg-red-500/10 dark:focus:bg-red-500/10 dark:active:bg-red-500/10"><i data-lucide="x" class="inline-block size-4"></i> <span class="align-middle">Cancel</span></button>
-                                <button type="submit" class="text-white btn bg-custom-500 border-custom-500 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 focus:ring focus:ring-custom-100 active:text-white active:bg-custom-600 active:border-custom-600 active:ring active:ring-custom-100 dark:ring-custom-400/20">Submit</button>
+                                <button type="submit" class="text-white btn bg-custom-500 hover:bg-custom-600 border-custom-500 hover:text-white focus:text-white active:text-white dark:ring-custom-400/20">Submit</button>
                             </div>
                         </form>
-
                     </div>
                 </div>
                 
@@ -377,6 +387,7 @@
 <script src="assets/libs/%40popperjs/core/umd/popper.min.js"></script>
 <script src="assets/libs/simplebar/simplebar.min.js"></script>
 <script src="assets/libs/lucide/umd/lucide.js"></script>
+<script src="assets/libs/prismjs/prism.js"></script>
 <script src="assets/js/tailwick.bundle.js"></script>
 
 <!--validation-->
@@ -392,8 +403,6 @@
 <!-- ck editor -->
 <script src="assets/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
 <script src="assets/js/pages/form-editor-classic.init.js"></script>
-
-
 
 <!-- App js -->
 <script src="assets/js/app.js"></script>

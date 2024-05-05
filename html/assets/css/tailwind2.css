@@ -26267,7 +26267,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .bg-custom-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(119 93 247 / var(--tw-bg-opacity))
+    background-color: rgb(155 64 247 / var(--tw-bg-opacity))
 }
 
 .bg-custom-800 {
@@ -30156,7 +30156,7 @@ td.gridjs-td:last-child {
 
 .hover\:bg-custom-600:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
+    background-color: rgb(155 64 247 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-custom-700:hover {
@@ -30758,7 +30758,7 @@ td.gridjs-td:last-child {
 
 .focus\:bg-custom-600:focus {
     --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
+    background-color: rgb(155 64 247 / var(--tw-bg-opacity))
 }
 
 .focus\:bg-custom-700:focus {
@@ -31201,7 +31201,7 @@ td.gridjs-td:last-child {
 
 .active\:bg-custom-600:active {
     --tw-bg-opacity: 1;
-    background-color: rgb(37 99 235 / var(--tw-bg-opacity))
+    background-color: rgb(155 64 247 / var(--tw-bg-opacity))
 }
 
 .active\:bg-custom-700:active {
