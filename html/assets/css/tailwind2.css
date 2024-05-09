@@ -26258,7 +26258,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .bg-custom-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
+    background-color: rgb(184 108 249 / var(--tw-bg-opacity))
 }
 
 .bg-custom-500\/10 {
@@ -30331,7 +30331,7 @@ td.gridjs-td:last-child {
 
 .hover\:bg-vertical-menu-item-bg-hover:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(132 108 249 / var(--tw-bg-opacity))
+    background-color: rgb(184 108 249 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-white:hover {
@@ -30565,7 +30565,7 @@ td.gridjs-td:last-child {
 
 .hover\:text-vertical-menu-sub-item-hover:hover {
     --tw-text-opacity: 1;
-    color: rgb(132 108 249 / var(--tw-text-opacity))
+    color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 .hover\:text-white:hover {
@@ -30615,7 +30615,7 @@ td.gridjs-td:last-child {
 .hover\:before\:bg-vertical-menu-sub-item-hover:hover:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
 .before\:hover\:text-center:hover:before {
@@ -32736,7 +32736,7 @@ td.gridjs-td:last-child {
 }
 
 .group[data-sidebar=modern] .group-data-\[sidebar\=modern\]\:hover\:bg-vertical-menu-item-bg-hover-modern:hover {
-    background-color: #ffffff0f
+    background-color: rgb(184 108 249)
 }
 
 .group[data-topbar=brand] .group-data-\[topbar\=brand\]\:hover\:bg-topbar-item-bg-hover-brand:hover {
@@ -32820,7 +32820,7 @@ td.gridjs-td:last-child {
 
 .group[data-sidebar-size=sm] .group\/sm:hover .group-data-\[sidebar-size\=sm\]\:group-hover\/sm\:bg-vertical-menu {
     --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity))
+    background-color: rgb(184 108 249 / var(--tw-bg-opacity))
 }
 
 .group[data-sidebar-size=sm][data-sidebar=modern] .group\/sm:hover .group-data-\[sidebar-size\=sm\]\:group-data-\[sidebar\=modern\]\:group-hover\/sm\:bg-gradient-to-tr {
