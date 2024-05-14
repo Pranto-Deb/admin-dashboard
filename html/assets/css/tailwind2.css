@@ -18676,7 +18676,7 @@ h6 {
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-color: rgb(147 51 234 / .5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -18726,7 +18726,7 @@ h6 {
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-color: rgb(147 51 234 / .5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -18776,7 +18776,7 @@ h6 {
     --tw-ring-inset: ;
     --tw-ring-offset-width: 0px;
     --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgb(59 130 246 / .5);
+    --tw-ring-color: rgb(147 51 234 / .5);
     --tw-ring-offset-shadow: 0 0 #0000;
     --tw-ring-shadow: 0 0 #0000;
     --tw-shadow: 0 0 #0000;
@@ -18935,7 +18935,7 @@ input[type=range]::-webkit-slider-thumb {
     appearance: none;
     border-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 input[type=range]:focus::-webkit-slider-thumb {
@@ -19499,9 +19499,9 @@ span.flatpickr-weekday {
 
 .flatpickr-day.today {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(239 246 255 / var(--tw-text-opacity))
 }
@@ -19535,9 +19535,9 @@ span.flatpickr-weekday {
 .flatpickr-day.startRange.nextMonthDay,
 .flatpickr-day.endRange.nextMonthDay {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(239 246 255 / var(--tw-text-opacity))
 }
@@ -19549,9 +19549,9 @@ span.flatpickr-weekday {
 .flatpickr-day.\!selected.prevMonthDay,
 .flatpickr-day.\!selected.nextMonthDay {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(239 246 255 / var(--tw-text-opacity))
 }
@@ -19990,7 +19990,7 @@ span.flatpickr-weekday {
 
 [data-simplebar-track=custom] .simplebar-scrollbar:before {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 [data-simplebar-track=green] .simplebar-scrollbar:before {
@@ -20100,8 +20100,8 @@ span.flatpickr-weekday {
 
 .swal2-loader {
     --tw-border-opacity: 1;
-    border-top-color: rgb(59 130 246 / var(--tw-border-opacity));
-    border-bottom-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-top-color: rgb(147 51 234 / var(--tw-border-opacity));
+    border-bottom-color: rgb(147 51 234 / var(--tw-border-opacity));
     border-left-color: transparent;
     border-right-color: transparent
 }
@@ -20114,7 +20114,7 @@ span.flatpickr-weekday {
 .swal2-progress-steps .swal2-progress-step,
 .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step,
@@ -20125,7 +20125,7 @@ span.flatpickr-weekday {
 
 .swal2-progress-steps .swal2-progress-step-line {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is(.swal2-file, .swal2-input, .swal2-textarea) {
@@ -20187,7 +20187,7 @@ span.flatpickr-weekday {
     width: 1rem;
     border-width: 4px;
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     outline-style: solid;
     outline-width: 1px;
     outline-color: #3b82f6
@@ -20318,7 +20318,7 @@ span.flatpickr-weekday {
     cursor: pointer;
     border-radius: .375rem;
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
     text-decoration-line: none;
@@ -20988,9 +20988,9 @@ span.flatpickr-weekday {
     border-radius: .375rem;
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     padding: .25rem .5rem;
     vertical-align: middle;
     font-weight: 500;
@@ -21007,9 +21007,9 @@ span.flatpickr-weekday {
 .choices__list--multiple .choices__item.is-highlighted {
     border-width: 1px;
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .is-disabled .choices__list--multiple .choices__item {
@@ -21274,7 +21274,7 @@ span.flatpickr-weekday {
 .pcr-app[data-theme=monolith] .pcr-interaction .pcr-type.active,
 .pcr-app[data-theme=monolith] .pcr-interaction .pcr-type.\!active {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .pcr-app[data-theme=monolith] .pcr-interaction .pcr-result {
@@ -21818,7 +21818,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
     display: block;
     border-radius: .25rem;
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     text-align: center;
     font-size: .875rem;
     line-height: 2.5rem;
@@ -21883,9 +21883,9 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 .listjs-pagination li.active .page,
 .listjs-pagination li.\!active .page {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22015,7 +22015,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .multi-wrapper .item:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22045,7 +22045,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .multi-wrapper .\!item:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22379,7 +22379,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 .vanilla-calendar-months__month.vanilla-calendar-months__month_selected,
 .vanilla-calendar-months__month.vanilla-calendar-months__month_selected:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22423,7 +22423,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 .vanilla-calendar-years__year.vanilla-calendar-years__year_selected,
 .vanilla-calendar-years__year.vanilla-calendar-years__year_selected:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22509,19 +22509,19 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
     --tw-bg-opacity: 1;
     background-color: rgb(241 245 249 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .vanilla-calendar-day__btn_today:hover {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .vanilla-calendar-day__btn_today) {
     --tw-bg-opacity: 1;
     background-color: rgb(28 46 69 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .vanilla-calendar-day__btn_today.vanilla-calendar-day__btn_prev,
@@ -22651,7 +22651,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
     --tw-bg-opacity: 1;
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .vanilla-calendar-day__btn_weekend.vanilla-calendar-day__btn_prev.vanilla-calendar-day__btn_selected),
@@ -22679,7 +22679,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
     --tw-bg-opacity: 1;
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .vanilla-calendar-day__btn_weekend.vanilla-calendar-day__btn_prev.vanilla-calendar-day__btn_selected.vanilla-calendar-day__btn_intermediate),
@@ -22701,7 +22701,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 .vanilla-calendar-day__btn_selected.vanilla-calendar-day__btn_intermediate,
 .vanilla-calendar-day__btn_selected.vanilla-calendar-day__btn_intermediate:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity))
 }
@@ -22713,7 +22713,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
     --tw-bg-opacity: 1;
     background-color: rgb(191 219 254 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .vanilla-calendar-day__btn_selected.vanilla-calendar-day__btn_prev),
@@ -25890,12 +25890,12 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .border-custom-500 {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .border-custom-600 {
     --tw-border-opacity: 1;
-    border-color: rgb(37 99 235 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .border-custom-800 {
@@ -26134,7 +26134,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .border-l-custom-500 {
     --tw-border-opacity: 1;
-    border-left-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-left-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .border-l-slate-300 {
@@ -26158,7 +26158,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .border-t-custom-500 {
     --tw-border-opacity: 1;
-    border-top-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-top-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .border-t-green-300 {
@@ -26267,7 +26267,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .bg-custom-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(155 64 247 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .bg-custom-800 {
@@ -26667,7 +26667,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .from-custom-500 {
     --tw-gradient-from: #3b82f6 var(--tw-gradient-from-position);
-    --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-to: rgb(147 51 234 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
 }
 
@@ -27645,7 +27645,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .text-blue-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .text-body {
@@ -27680,7 +27680,7 @@ div.flatpickr-day.dataTables_scrollBody>table.dataTable>:is(thead>tr>th, thead>t
 
 .text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .text-custom-600 {
@@ -28598,7 +28598,7 @@ input.gridjs-input {
 
 input.gridjs-input:focus {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity));
+    border-color: rgb(147 51 234 / var(--tw-border-opacity));
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
     -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -29208,7 +29208,7 @@ td.gridjs-td:last-child {
 .before\:border-custom-500:before {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .before\:border-green-500\/10:before {
@@ -29284,7 +29284,7 @@ td.gridjs-td:last-child {
 
 .before\:via-custom-500:before {
     content: var(--tw-content);
-    --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-to: rgb(147 51 234 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), #3b82f6 var(--tw-gradient-via-position), var(--tw-gradient-to)
 }
 
@@ -29521,7 +29521,7 @@ td.gridjs-td:last-child {
 .after\:border-t-custom-500:after {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-top-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-top-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .after\:border-t-green-500:after {
@@ -29539,7 +29539,7 @@ td.gridjs-td:last-child {
 .after\:bg-custom-500:after {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .after\:bg-white:after {
@@ -29583,7 +29583,7 @@ td.gridjs-td:last-child {
 .after\:text-custom-500:after {
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .after\:text-green-500:after {
@@ -29737,7 +29737,7 @@ td.gridjs-td:last-child {
 
 .checked\:border-custom-500:checked {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .checked\:border-green-100:checked {
@@ -29852,7 +29852,7 @@ td.gridjs-td:last-child {
 
 .checked\:bg-custom-500:checked {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .checked\:bg-emerald-300:checked {
@@ -29947,7 +29947,7 @@ td.gridjs-td:last-child {
 .checked\:after\:text-custom-500:checked:after {
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .checked\:after\:text-green-500:checked:after {
@@ -30036,12 +30036,12 @@ td.gridjs-td:last-child {
 
 .hover\:border-custom-500:hover {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .hover\:border-custom-600:hover {
     --tw-border-opacity: 1;
-    border-color: rgb(37 99 235 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .hover\:border-custom-700:hover {
@@ -30151,7 +30151,7 @@ td.gridjs-td:last-child {
 
 .hover\:bg-custom-500:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .hover\:bg-custom-600:hover {
@@ -30390,7 +30390,7 @@ td.gridjs-td:last-child {
 
 .hover\:text-custom-500:hover {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .hover\:text-custom-600:hover {
@@ -30649,7 +30649,7 @@ td.gridjs-td:last-child {
 
 .focus\:border-custom-500:focus {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .focus\:border-custom-600:focus {
@@ -30753,7 +30753,7 @@ td.gridjs-td:last-child {
 
 .focus\:bg-custom-500:focus {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .focus\:bg-custom-600:focus {
@@ -30918,7 +30918,7 @@ td.gridjs-td:last-child {
 
 .focus\:text-custom-500:focus {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .focus\:text-custom-600:focus {
@@ -31067,11 +31067,11 @@ td.gridjs-td:last-child {
 
 .focus\:ring-custom-100:focus {
     --tw-ring-opacity: 1;
-    --tw-ring-color: rgb(219 234 254 / var(--tw-ring-opacity))
+    --tw-ring-color: rgb(147 51 234 / var(--tw-ring-opacity))
 }
 
 .focus\:ring-custom-500\/20:focus {
-    --tw-ring-color: rgb(59 130 246 / .2)
+    --tw-ring-color: rgb(147 51 234 / .2)
 }
 
 .focus\:ring-green-100:focus {
@@ -31321,7 +31321,7 @@ td.gridjs-td:last-child {
 
 .active\:text-custom-500:active {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .active\:text-custom-600:active {
@@ -31434,7 +31434,7 @@ td.gridjs-td:last-child {
 }
 
 .active\:ring-custom-500\/20:active {
-    --tw-ring-color: rgb(59 130 246 / .2)
+    --tw-ring-color: rgb(147 51 234 / .2)
 }
 
 .active\:ring-green-100:active {
@@ -31649,7 +31649,7 @@ td.gridjs-td:last-child {
 
 .group\/item:hover .group-hover\/item\:text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group\/item:hover .group-hover\/item\:text-red-500 {
@@ -31664,7 +31664,7 @@ td.gridjs-td:last-child {
 
 .group\/items:hover .group-hover\/items\:text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group\/gallery:hover .group-hover\/gallery\:opacity-100 {
@@ -31754,7 +31754,7 @@ td.gridjs-td:last-child {
 
 .group.active .group-\[\.active\]\:border-b-custom-500 {
     --tw-border-opacity: 1;
-    border-bottom-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-bottom-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .group.active .group-\[\.active\]\:border-b-white {
@@ -31770,7 +31770,7 @@ td.gridjs-td:last-child {
 .group\/item.active .group-\[\.active\]\/item\:bg-custom-500,
 .group.active .group-\[\.active\]\:bg-custom-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .group.gridView .group-\[\.gridView\]\:bg-slate-100 {
@@ -31823,7 +31823,7 @@ td.gridjs-td:last-child {
 
 .group\/item.active .group-\[\.active\]\/item\:text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group\/item.active .group-\[\.active\]\/item\:text-red-500 {
@@ -31838,7 +31838,7 @@ td.gridjs-td:last-child {
 
 .group.active .group-\[\.active\]\:text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group.active .group-\[\.active\]\:text-red-500 {
@@ -31863,7 +31863,7 @@ td.gridjs-td:last-child {
 .group.active .group-\[\.active\]\:before\:bg-custom-500:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .group.stripe .group-\[\.stripe\]\:even\:bg-slate-50:nth-child(2n) {
@@ -31878,7 +31878,7 @@ td.gridjs-td:last-child {
 
 .peer\/business:checked~.peer-checked\/business\:border-custom-500 {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .peer\/published:checked~.peer-checked\/published\:border-custom-100 {
@@ -31888,7 +31888,7 @@ td.gridjs-td:last-child {
 
 .peer\/published:checked~.peer-checked\/published\:border-custom-500 {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .peer\/published:checked~.peer-checked\/published\:border-green-100 {
@@ -31998,7 +31998,7 @@ td.gridjs-td:last-child {
 
 .peer\/published:checked~.peer-checked\/published\:bg-custom-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .peer\/published:checked~.peer-checked\/published\:bg-green-100 {
@@ -32098,7 +32098,7 @@ td.gridjs-td:last-child {
 
 .peer\/business:checked~.peer-checked\/business\:text-custom-500 {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .peer:disabled~.peer-disabled\:cursor-default {
@@ -32758,7 +32758,7 @@ td.gridjs-td:last-child {
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:hover\:text-vertical-menu-item-hover-dark:hover,
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:hover\:text-vertical-menu-sub-item-hover-dark:hover {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=modern] .group-data-\[sidebar\=modern\]\:hover\:text-vertical-menu-item-hover-modern:hover {
@@ -32785,7 +32785,7 @@ td.gridjs-td:last-child {
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:hover\:before\:bg-vertical-menu-sub-item-hover-dark:hover:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .group[data-sidebar=modern] .group-data-\[sidebar\=modern\]\:before\:hover\:bg-vertical-menu-sub-item-hover-modern:hover:before {
@@ -32864,7 +32864,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:border-custom-500) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:border-custom-500\/20) {
@@ -32877,7 +32877,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:border-custom-600) {
     --tw-border-opacity: 1;
-    border-color: rgb(37 99 235 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:border-custom-700) {
@@ -33211,7 +33211,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:bg-custom-500) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:bg-custom-500\/10) {
@@ -33519,7 +33519,7 @@ td.gridjs-td:last-child {
 }
 
 :is([data-mode=dark] .dark\:to-custom-500\/20) {
-    --tw-gradient-to: rgb(59 130 246 / .2) var(--tw-gradient-to-position)
+    --tw-gradient-to: rgb(147 51 234 / .2) var(--tw-gradient-to-position)
 }
 
 :is([data-mode=dark] .dark\:to-custom-900) {
@@ -33670,7 +33670,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:text-green-200) {
@@ -34058,7 +34058,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:before\:via-custom-500):before {
     content: var(--tw-content);
-    --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-to: rgb(147 51 234 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), #3b82f6 var(--tw-gradient-via-position), var(--tw-gradient-to)
 }
 
@@ -34088,7 +34088,7 @@ td.gridjs-td:last-child {
 :is([data-mode=dark] .dark\:after\:text-custom-500):after {
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:after\:text-green-500):after {
@@ -34170,7 +34170,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:checked\:border-custom-500:checked) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:checked\:border-custom-800:checked) {
@@ -34340,7 +34340,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:checked\:bg-custom-500:checked) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:checked\:bg-green-400:checked) {
@@ -34431,7 +34431,7 @@ td.gridjs-td:last-child {
 :is([data-mode=dark] .dark\:checked\:after\:text-custom-500:checked):after {
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:checked\:after\:text-green-500:checked):after {
@@ -34494,7 +34494,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:hover\:border-custom-500:hover) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:hover\:border-green-500:hover) {
@@ -34543,7 +34543,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:hover\:bg-custom-500:hover) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:hover\:bg-custom-500\/10:hover) {
@@ -34742,7 +34742,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:hover\:text-custom-500:hover) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:hover\:text-green-50:hover) {
@@ -34837,7 +34837,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:focus\:border-custom-500:focus) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:focus\:border-custom-800:focus) {
@@ -34890,7 +34890,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:focus\:bg-custom-500:focus) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:focus\:bg-custom-500\/10:focus) {
@@ -35025,7 +35025,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:focus\:text-custom-500:focus) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:focus\:text-green-50:focus) {
@@ -35118,7 +35118,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:active\:bg-custom-500:active) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:active\:bg-custom-500\/10:active) {
@@ -35223,7 +35223,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:active\:text-custom-500:active) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:active\:text-red-500:active) {
@@ -35283,7 +35283,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group\/item:hover .dark\:group-hover\/item\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .group\/item:hover .dark\:group-hover\/item\:text-red-500) {
@@ -35298,7 +35298,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group\/items:hover .dark\:group-hover\/items\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:border-zink-500) {
@@ -35318,7 +35318,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:border-b-custom-500) {
     --tw-border-opacity: 1;
-    border-bottom-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-bottom-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:border-b-zink-700) {
@@ -35333,7 +35333,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:bg-custom-500) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .group.gridView .dark\:group-\[\.gridView\]\:bg-zink-600) {
@@ -35368,7 +35368,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group\/item.active .dark\:group-\[\.active\]\/item\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .group\/item.active .dark\:group-\[\.active\]\/item\:text-red-500) {
@@ -35383,7 +35383,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:text-white) {
@@ -35412,7 +35412,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:hover\:text-custom-500:hover) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .group.active .dark\:group-\[\.active\]\:hover\:text-white:hover) {
@@ -35422,7 +35422,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .peer\/business:checked~.dark\:peer-checked\/business\:border-custom-500) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .peer\/published:checked~.dark\:peer-checked\/published\:border-custom-800) {
@@ -35581,7 +35581,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .peer\/business:checked~.dark\:peer-checked\/business\:text-custom-500) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .peer:disabled~.dark\:peer-disabled\:border-slate-800) {
@@ -35711,12 +35711,12 @@ td.gridjs-td:last-child {
 
 .group[data-layout=horizontal] :is([data-mode=dark] .group-data-\[layout\=horizontal\]\:dark\:hover\:text-custom-500:hover) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=dark] :is([data-mode=dark] .group-data-\[sidebar\=dark\]\:dark\:hover\:text-custom-500:hover) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-topbar=dark] :is([data-mode=dark] .group-data-\[topbar\=dark\]\:dark\:hover\:text-zink-50:hover) {
@@ -35727,7 +35727,7 @@ td.gridjs-td:last-child {
 .group[data-sidebar=dark] :is([data-mode=dark] .group-data-\[sidebar\=dark\]\:dark\:hover\:before\:bg-custom-500:hover):before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .group[data-layout=horizontal] :is([data-mode=dark] .group\/menu-link:hover .group-data-\[layout\=horizontal\]\:dark\:group-hover\/menu-link\:fill-custom-500\/20) {
@@ -37985,7 +37985,7 @@ td.gridjs-td:last-child {
 
 .\[\&\.active\]\:border-custom-500.active {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .\[\&\.active\]\:bg-custom-50.active {
@@ -37995,7 +37995,7 @@ td.gridjs-td:last-child {
 
 .\[\&\.active\]\:bg-custom-500.active {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .\[\&\.active\]\:bg-sky-600.active {
@@ -38030,7 +38030,7 @@ td.gridjs-td:last-child {
 
 .\[\&\.active\]\:text-custom-500.active {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .\[\&\.active\]\:text-green-500.active {
@@ -38046,7 +38046,7 @@ td.gridjs-td:last-child {
 .\[\&\.active\]\:text-vertical-menu-item-active.active,
 .\[\&\.active\]\:text-vertical-menu-sub-item-active.active {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .\[\&\.active\]\:text-white.active {
@@ -38061,18 +38061,18 @@ td.gridjs-td:last-child {
 .\[\&\.active\]\:before\:bg-vertical-menu-sub-item-active.active:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .\[\&\.active\]\:after\:border-custom-500.active:after {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .\[\&\.active\]\:hover\:text-custom-500:hover.active {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .\[\&\.active\]\:hover\:text-custom-700:hover.active {
@@ -38107,7 +38107,7 @@ td.gridjs-td:last-child {
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:\[\&\.active\]\:text-vertical-menu-item-active-dark.active,
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:\[\&\.active\]\:text-vertical-menu-sub-item-active-dark.active {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=modern] .group-data-\[sidebar\=modern\]\:\[\&\.active\]\:text-vertical-menu-item-active-modern.active {
@@ -38128,13 +38128,13 @@ td.gridjs-td:last-child {
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:\[\&\.active\]\:before\:bg-vertical-menu-sub-item-active-dark.active:before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .group[data-sidebar=dark] .group-data-\[sidebar\=dark\]\:\[\&\.active\]\:before\:text-vertical-menu-sub-item-active-dark.active:before {
     content: var(--tw-content);
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=modern] .group-data-\[sidebar\=modern\]\:before\:\[\&\.active\]\:text-vertical-menu-sub-item-active-modern.active:before {
@@ -38145,7 +38145,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:border-custom-500.active) {
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:border-custom-500\/10.active) {
@@ -38162,7 +38162,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:bg-custom-500.active) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:bg-custom-500\/10.active) {
@@ -38186,7 +38186,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:text-custom-500.active) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 :is([data-mode=dark] .dark\:\[\&\.active\]\:text-white.active) {
@@ -38206,18 +38206,18 @@ td.gridjs-td:last-child {
 
 .group[data-layout=horizontal] :is([data-mode=dark] .group-data-\[layout\=horizontal\]\:dark\:\[\&\.active\]\:text-custom-500.active) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=dark] :is([data-mode=dark] .group-data-\[sidebar\=dark\]\:dark\:\[\&\.active\]\:text-custom-500.active) {
     --tw-text-opacity: 1;
-    color: rgb(59 130 246 / var(--tw-text-opacity))
+    color: rgb(147 51 234 / var(--tw-text-opacity))
 }
 
 .group[data-sidebar=dark] :is([data-mode=dark] .group-data-\[sidebar\=dark\]\:dark\:\[\&\.active\]\:before\:bg-custom-500.active):before {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 @media (min-width: 1280px) {
@@ -38229,7 +38229,7 @@ td.gridjs-td:last-child {
 .\[\&\.checked\]\:before\:border-custom-500.checked:before {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .\[\&\.disabled\]\:cursor-auto.disabled {
@@ -38249,19 +38249,19 @@ td.gridjs-td:last-child {
 .\[\&\.done\]\:before\:border-custom-500.done:before {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .\[\&\.done\]\:after\:border-custom-500.done:after {
     content: var(--tw-content);
     --tw-border-opacity: 1;
-    border-color: rgb(59 130 246 / var(--tw-border-opacity))
+    border-color: rgb(147 51 234 / var(--tw-border-opacity))
 }
 
 .\[\&\.done\]\:after\:bg-custom-500.done:after {
     content: var(--tw-content);
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .\[\&\.dropdown-button\]\:before\:absolute.dropdown-button:before {
@@ -38417,7 +38417,7 @@ td.gridjs-td:last-child {
 
 .\[\&\.selected\]\:bg-custom-500.selected {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 .\[\&\.selected\]\:text-custom-50.selected {
@@ -38427,7 +38427,7 @@ td.gridjs-td:last-child {
 
 :is([data-mode=dark] .dark\:\[\&\.selected\]\:bg-custom-500.selected) {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(147 51 234 / var(--tw-bg-opacity))
 }
 
 :is([data-mode=dark] .dark\:\[\&\.selected\]\:text-custom-50.selected) {

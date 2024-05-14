@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!-- Layout config Js -->
     <link rel="stylesheet" href="assets/css/tailwind2.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body
@@ -325,7 +326,7 @@
                     <div class="grid items-center grid-cols-1 gap-5 mb-5 xl:grid-cols-12">
                         <div class="xl:col-span-2">
                             <h5 class="text-16">Add New Invoice</h5>
-                        </div><!--end col-->
+                        </div>
                         <div class="xl:col-span-3 xl:col-start-10">
                             <div class="flex justify-end gap-2">
                                 <button type="button" class="text-slate-500 btn bg-slate-200 border-slate-200 hover:text-slate-600 hover:bg-slate-300 hover:border-slate-300 focus:text-slate-600 focus:bg-slate-300 focus:border-slate-300 focus:ring focus:ring-slate-100 active:text-slate-600 active:bg-slate-300 active:border-slate-300 active:ring active:ring-slate-100 dark:bg-zink-600 dark:hover:bg-zink-500 dark:border-zink-600 dark:hover:border-zink-500 dark:text-zink-200 dark:ring-zink-400/50"><i data-lucide="eye" class="inline-block mr-1 size-4"></i> <span class="align-middle">Preview</span></button>
@@ -333,29 +334,133 @@
                                 <button type="button" class="text-white btn bg-custom-500 border-custom-500 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 focus:ring focus:ring-custom-100 active:text-white active:bg-custom-600 active:border-custom-600 active:ring active:ring-custom-100 dark:ring-custom-400/20"><i data-lucide="save" class="inline-block mr-1 size-4"></i> <span class="align-middle">Download</span></button>
                             </div>
                         </div>
-                    </div><!--end grid-->
+                    </div>
     
                     <div class="card">
                         <div class="card-body">
                             <form action="#!">
-                                <h6 class="mb-4 text-gray-800 underline text-16 dark:text-zink-50">Generale Info:</h6>
-                                <div class="grid grid-cols-1 gap-5 xl:grid-cols-12">
+                                <div class="xl:col-span-12 flex justify-end">
                                     <div class="xl:col-span-3">
-                                        <label for="invoiceID" class="inline-block mb-2 text-base font-medium">Invoice No.</label>
-                                        <input type="text" id="invoiceID" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Enter invoice no." value="#TW15090251" disabled required>
-                                    </div><!--end col-->
+                                        <div class="mb-1 text-base font-medium">Invoice No: #jdfsghjdfh44</div>
+                                        <div class="mb-2 text-base font-medium">Date: 28-022024</div>
+                                    </div>
+                                </div>
+                                <div class="w-full flex gap-x-6 justify-between mt-5">
+                                    <div class="xl:col-span-12">
+                                        <div class="xl:col-span-3">
+                                            <label for="paymentMethod" class="inline-block mb-2 text-base font-medium">Select Customer</label>
+                                            <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod">
+                                                <option>Select Customer</option>
+                                                <option value="Credit Card">Credit Card</option>
+                                                <option value="Paypal">Paypal</option>
+                                                <option value="Paypal">Paypal</option>
+                                                <option value="American Express">American Express</option>
+                                            </select>
+                                        </div>
+                                        <div class="w-full mt-5">
+                                            <h6 class="mb-2 text-gray-800 underline text-16 dark:text-zink-50">Customer Info:</h6>
+                                            <div class="mb-1 text-base font-medium">Name: Pranto Deb</div>
+                                            <div class="mb-1 text-base font-medium">Phone: 01811172693</div>
+                                            <div class="mb-1 text-base font-medium">Email: prantodeb1@gmail.com</div>
+                                        </div>
+                                    </div>
+                                    <div class="xl:col-span-12">
+                                        <div class="xl:col-span-3">
+                                            <label for="paymentMethod" class="inline-block mb-2 text-base font-medium">Select Agency</label>
+                                            <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod">
+                                                <option>Select Agency</option>
+                                                <option value="Credit Card">Credit Card</option>
+                                                <option value="Paypal">Paypal</option>
+                                                <option value="Paypal">Paypal</option>
+                                                <option value="American Express">American Express</option>
+                                            </select>
+                                        </div>
+                                        <div class="w-full mt-5">
+                                            <h6 class="mb-2 text-gray-800 underline text-16 dark:text-zink-50">Agency Info:</h6>
+                                            <div class="mb-1 text-base font-medium">Name: Pranto Deb</div>
+                                            <div class="mb-1 text-base font-medium">Phone: 01811172693</div>
+                                            <div class="mb-1 text-base font-medium">Email: prantodeb1@gmail.com</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 gap-5 xl:grid-cols-12 mt-8">
+                                    <div class="xl:col-span-3">
+                                        <label for="paymentMethod" class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod">
+                                            <option>Select Service Type</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-3">
+                                        <label for="paymentMethod2" class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod2">
+                                            <option>Select Service Type</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-3">
+                                        <label for="paymentMethod3" class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod3">
+                                            <option>Select Service Type</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-3">
+                                        <label for="paymentMethod4" class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod4">
+                                            <option>Select Service Type</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
+                                    <div class="xl:col-span-3">
+                                        <label class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <div class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false>
+                                            <option>Select Service Type</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </div>
+                                    </div>
+                                    
+                                </div><!--end grid-->
+
+                                <div class="grid grid-cols-1 gap-5 xl:grid-cols-12 mt-8">
+                                    <div class="xl:col-span-3">
+                                        <label for="paymentMethod" class="inline-block mb-2 text-base font-medium">Service Type</label>
+                                        <select class="form-input border-slate-300 focus:outline-none focus:border-custom-500" data-choices data-choices-search-false name="paymentMethod" id="paymentMethod">
+                                            <option>Select</option>
+                                            <option value="Credit Card">Credit Card</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="Paypal">Paypal</option>
+                                            <option value="American Express">American Express</option>
+                                        </select>
+                                    </div>
                                     <div class="xl:col-span-3">
                                         <label for="invoiceNo" class="inline-block mb-2 text-base font-medium">Invoice Date</label>
                                         <input type="text" id="invoiceNo" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Invoice Date" data-provider="flatpickr" data-date-format="d M, Y" readonly="readonly" required>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="xl:col-span-3">
                                         <label for="invoiceDue" class="inline-block mb-2 text-base font-medium">Invoice Due</label>
                                         <input type="text" id="invoiceDue" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Invoice Due" data-provider="flatpickr" data-date-format="d M, Y" readonly="readonly" required>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="xl:col-span-3">
                                         <label for="legalRegistrationNo" class="inline-block mb-2 text-base font-medium">Legal Registration No.</label>
                                         <input type="number" id="legalRegistrationNo" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="Legal Registration No" required>
-                                    </div><!--end col-->
+                                    </div>
                                     <div class="xl:col-span-3">
                                         <label for="emailInvoiceInput" class="inline-block mb-2 text-base font-medium">Email</label>
                                         <input type="email" id="emailInvoiceInput" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="tailwick@themesdesign.com" required>
