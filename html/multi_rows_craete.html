@@ -333,13 +333,14 @@
                                             <th class="px-3.5 py-2.5 font-semibold border border-transparent">Salary Amount</th>
                                             <th class="px-3.5 py-2.5 font-semibold border border-transparent">Deductions(TDS)</th>
                                             <th class="px-3.5 py-2.5 font-semibold border border-transparent">Professional Tax</th>
+                                            <th class="px-3.5 py-2.5 font-semibold border border-transparent">Actions</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody id="productRows">
                                         <tr>
                                             <td class="px-2 py-2.5 border border-transparent">
                                                 <select id="selectSingleSearch"
-                                                class="w-full form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200"
+                                                    class="w-full form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200"
                                                     data-choices name="choices-single-default" id="choices-single-default">
                                                     <option value="Choice 1">Choice 1 fghg fghf</option>
                                                     <option value="Choice 2">Choice 2 ghsgh</option>
@@ -355,19 +356,30 @@
                                             <td class="px-3.5 py-2.5 border border-transparent">
                                                 <input type="number" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$00.00">
                                             </td>
+                                            <td class="px-3.5 py-2.5 border border-transparent">
+                                                <button type="button" class="delete-row-btn text-red-500 hover:text-red-600 focus:text-red-600 active:text-red-600">
+                                                    Delete
+                                                </button>
+                                            </td>
                                         </tr>
                                     </tbody>
                                     <tbody class="before:block before:h-4">
                                         <tr>
                                             <td colspan="6">
-                                                <button type="button" class="bg-white border-dashed text-custom-500 btn border-custom-500 hover:text-custom-500 hover:bg-custom-50 hover:border-custom-600 focus:text-custom-600 focus:bg-custom-50 focus:border-custom-600 active:text-custom-600 active:bg-custom-50 active:border-custom-600 dark:bg-zink-700 dark:ring-custom-400/20 dark:hover:bg-custom-800/20 dark:focus:bg-custom-800/20 dark:active:bg-custom-800/20"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" class="lucide lucide-plus inline-block mr-1 align-middle size-3"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg> <span class="align-middle">Add Item</span></button>
+                                                <button type="button" id="addItemButton" class="bg-white border-dashed text-custom-500 btn border-custom-500 hover:text-custom-500 hover:bg-custom-50 hover:border-custom-600 focus:text-custom-600 focus:bg-custom-50 focus:border-custom-600 active:text-custom-600 active:bg-custom-50 active:border-custom-600 dark:bg-zink-700 dark:ring-custom-400/20 dark:hover:bg-custom-800/20 dark:focus:bg-custom-800/20 dark:active:bg-custom-800/20">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="plus" class="lucide lucide-plus inline-block mr-1 align-middle size-3">
+                                                        <path d="M5 12h14"></path>
+                                                        <path d="M12 5v14"></path>
+                                                    </svg>
+                                                    <span class="align-middle">Add Item</span>
+                                                </button>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-    
+                
                                 <div class="flex justify-end gap-2 mt-5">
-                                    <button type="cancel"
+                                    <button type="button"
                                         class="text-white bg-red-500 btn hover:text-white hover:bg-red-600 focus:text-white focus:bg-red-600 active:text-white active:bg-red-600 dark:bg-zink-700 dark:hover:bg-red-500/10 dark:focus:bg-red-500/10 dark:active:bg-red-500/10"><i
                                             data-lucide="x" class="inline-block size-4"></i> <span
                                             class="align-middle">Cancel</span></button>
@@ -434,6 +446,46 @@
 
     <!-- App js -->
     <script src="assets/js/app.js"></script>
+    <script>
+        document.getElementById('addItemButton').addEventListener('click', function () {
+            const tableBody = document.getElementById('productRows');
+            const newRow = document.createElement('tr');
+
+            newRow.innerHTML = `
+                <td class="px-2 py-2.5 border border-transparent">
+                    <select id="selectSingleSearch"
+                    class="w-full form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200"
+                        data-choices name="choices-single-default" id="choices-single-default">
+                        <option value="Choice 1">Choice 1 fghg fghf</option>
+                        <option value="Choice 2">Choice 2 ghsgh</option>
+                        <option value="Choice 3">Choice 3 dghghsgh</option>
+                    </select>
+                </td>
+                <td class="px-3.5 py-2.5 border border-transparent">
+                    <input type="number" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$00.00">
+                </td>
+                <td class="px-3.5 py-2.5 border border-transparent">
+                    <input type="number" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$00.00">
+                </td>
+                <td class="px-3.5 py-2.5 border border-transparent">
+                    <input type="number" class="form-input border-slate-200 dark:border-zink-500 focus:outline-none focus:border-custom-500 disabled:bg-slate-100 dark:disabled:bg-zink-600 disabled:border-slate-300 dark:disabled:border-zink-500 dark:disabled:text-zink-200 disabled:text-slate-500 dark:text-zink-100 dark:bg-zink-700 dark:focus:border-custom-800 placeholder:text-slate-400 dark:placeholder:text-zink-200" placeholder="$00.00">
+                </td>
+                <td class="px-3.5 py-2.5 border border-transparent">
+                    <button type="button" class="delete-row-btn text-red-500 hover:text-red-600 focus:text-red-600 active:text-red-600">
+                        Delete
+                    </button>
+                </td>
+            `;
+
+            tableBody.appendChild(newRow);
+        });
+
+        document.getElementById('productRows').addEventListener('click', function (e) {
+            if (e.target && e.target.classList.contains('delete-row-btn')) {
+                e.target.closest('tr').remove();
+            }
+        });
+    </script>
 
 </body>
 
