@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Order</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            font-size: 14px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            color: #000;
+            margin: 0;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            color: #000;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            align-items: end;
+        }
+
+        .footer div {
+            margin: 5px 0;
+        }
+
+        .signature {
+            margin-left: auto; /* Pushes the signature section to the end of the flex container */
+        }
+
+        .driver_signature{
+            padding-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Transfer order for</h2>
+            <div>CLIENT NAME : REF 7409592 LLOPIS DUBOIS MARIE THERES X2</div>
+            <div>AGENCY: EXOTISMES</div>
+            <div class="date">Thursday, February 27, 2025</div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Client Name</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Pick Up Time</th>
+                    <th>Flight No</th>
+                    <th>Arv / Dep</th>
+                    <th>Date Service</th>
+                    <th>Adult</th>
+                    <th>Child</th>
+                    <th>Infant</th>
+                    <th>Teen</th>
+                    <th>Resa Remarks</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>REF 7409592 LLOPIS DUBOIS MARIE THERES X2</td>
+                    <td>Airport</td>
+                    <td>OCEAN PARADISE</td>
+                    <td>TBC</td>
+                    <td>TBC</td>
+                    <td>ARRIVAL</td>
+                    <td>Thursday, February 27, 2025</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>Water/ Music/cold towel/brochure</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <div>
+                <div><strong>Veh Cat:</strong> NOAH</div>
+                <div><strong>Veh No:</strong></div>
+                <div><strong>Comments:</strong></div>
+                <div class="driver_signature"><strong>Driver Signature:...............................</strong></div>
+            </div>
+            <div class="signature">
+                <div><strong>Signature of the guest:.............................</strong></div>
+                <div><strong>Date:.............................</strong></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
